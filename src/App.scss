@@ -1,0 +1,86 @@
+.p-toast.p-toast-top-right {
+  z-index: 1000;
+  top: 7rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.img-thumbnail {
+  border: 1px solid #fff; /* Gray border */
+  border-radius: 4px; /* Rounded border */
+  padding: 5px; /* Some padding */
+}
+
+.badge {
+  border-radius: 2px;
+  padding: 0.25em 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+  &.status-true {
+    background: #c8e6c9;
+    color: #256029;
+  }
+  &.status-false {
+    background: #ffcdd2;
+    color: #c63737;
+  }
+}
+
+.solicitacao-badge {
+  border-radius: 2px;
+  padding: 0.25em 0.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 0.3px;
+
+  &.status-em_aberto {
+    background: #ffcdd2;
+    color: #c63737;
+  }
+
+  &.status-irrecuperavel {
+    background: #ffcdd2;
+    color: #c63737;
+  }
+
+  &.status-aguardando_atendimento {
+    background: #feedaf;
+    color: #8a5340;
+  }
+
+  &.status-aguardando_finalizacao {
+    background: #b3e5fc;
+    color: #23547b;
+  }
+
+  &.status-aguardando_entrega {
+    background: #dcedc8;
+    color: #33691e;
+  }
+
+  &.status-finalizado {
+    background: #c8e6c9;
+    color: #256029;
+  }
+
+  &.status-true {
+    background: #c8e6c9;
+    color: #256029;
+  }
+
+  &.status-false {
+    background: #ffcdd2;
+    color: #c63737;
+  }
+}
+
+.circle-image {
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
